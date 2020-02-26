@@ -1,0 +1,24 @@
+---
+navigationLabel: Home
+---
+
+# Home
+
+This is `src/pages/index.mdx`
+
+Here's a code snippet. It can also be customized using theme shadowing
+
+```javascript
+<SourceList>
+  {source => (
+    <ul>
+      {source.map((edge, index) => {
+        const {
+          frontmatter: { title }
+        } = edge.node;
+        return <li key={index}>{title}</li>;
+      })}
+    </ul>
+  )}
+</SourceList>
+```
