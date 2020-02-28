@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: "https://gatsby-starter-terminal.netlify.com",
     siteImage: "terminal-open-graph-image.jpg",
     profileImage: ``,
-    lang: `eng`,
+    lang: `en`,
     config: {
       sidebarWidth: 280
     }
