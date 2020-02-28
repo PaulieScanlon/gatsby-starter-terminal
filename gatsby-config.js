@@ -5,6 +5,7 @@ module.exports = {
     keywords: ["tech", "blog", "boop"],
     siteUrl: "https://gatsby-starter-terminal.netlify.com",
     siteImage: "terminal-open-graph-image.jpg",
+    profileImage: ``,
     lang: `eng`,
     config: {
       sidebarWidth: 280
