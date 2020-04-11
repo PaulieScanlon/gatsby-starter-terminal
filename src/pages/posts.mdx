@@ -1,0 +1,27 @@
+---
+navigationLabel: Posts
+---
+
+# Posts
+
+This is `src/pages/posts.mdx`
+
+Here we use the `<SourceList />` to list files found in `posts`
+
+<SourceList>
+  {source => (
+    <ul>
+      {source.map((edge, index) => {
+        const {
+          frontmatter: { title },
+          fields: { slug }
+        } = edge.node;
+        return (
+          <li key={index}>
+            <a href={slug}>{title}</a>
+          </li>
+        );
+      })}
+    </ul>
+  )}
+</SourceList>

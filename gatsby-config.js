@@ -11,5 +11,12 @@ module.exports = {
       sidebarWidth: 280
     }
   },
-  plugins: ["@pauliescanlon/gatsby-theme-terminal"]
+  plugins: [
+    {
+      resolve: "@pauliescanlon/gatsby-theme-terminal",
+      options: {
+        source: ["posts"]
+      }
+    }
+  ]
 };
