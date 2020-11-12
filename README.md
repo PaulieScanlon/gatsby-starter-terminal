@@ -4,4 +4,4 @@ This is a starter repo for [gatsby-theme-terminal](https://github.com/PaulieScan
 
 ## 👁️ Preview
 
-- [Live Demo](https://gatsby-theme-terminal.netlify.com/)
+- [Live Demo](https://gatsby-starter-terminal.netlify.app/)
